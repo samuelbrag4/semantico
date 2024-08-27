@@ -1,0 +1,13 @@
+/* Reset básico para consistencia entre navegadores! */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-;
+    line-height: 1.6;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
