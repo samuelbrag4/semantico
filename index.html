@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exemplo HTML Semântico</title>
 
     <link rel="stylesheet" href="./css/global.css">
 
@@ -20,6 +20,41 @@
             </ul>
         </nav>
     </header>
-    
+
+    <main class="main-content">
+        <article class="article">
+            <header class="article-header">
+                <h2 class="article-title">Bem vindo ao meu site</h2>
+                <p class="section-text">Texto aleatório na aula de marcação Web!</p>
+            </header>
+            <section class="article-content">
+                <h3 class="section-title">Introdução</h3>
+                <p class="section-text">Este conteúdo de introdutório do artigo</p>
+                <figure class="img-figure">
+                    <img src="img/totoro.jpg" alt="Totoro" class="article-img"></img>
+                    <figurecaption class="image-caption">Totoro</figurecaption>
+                </figure>
+                <audio controls class="audio-player">
+                    <source src="media/audio.mp3" type="audio/mp3">
+                    Seu navegador não suporta a tag audio.
+                </audio>
+                <code>audio</code>.
+            </section>
+            <footer class="article-footer">
+                <p class="section-text">Texto de rodapé do artigo</p>
+            </footer>
+            </article>
+            <aside class="sidebar">
+                <h2 class="sidebar-title">Informações adicionais</h2>
+                <p class="section-text">Texto aleatório na aula de marcação web</p>
+            </aside>
+    </main>
+    <footer class="site-footer">
+        <address class="contact-info">
+            <p class="author-name">Autor: Samuel Braga</p>
+            <p class="author-email">Email: <a href="mailto:samuel.d.braga6@aluno.senai.br" class="email-link">samuel.d.braga6@aluno.senai.br</a></p>
+        </address>
+        <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
